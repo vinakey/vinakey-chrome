@@ -1,19 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>AVIM Settings</title>
-  <link rel="stylesheet" href="popup.css">
-</head>
-<body>
-  <h1>AVIM Settings</h1>
-  <label for="language-select">Language:</label>
-  <select id="language-select">
-    <option value="en">English</option>
-    <option value="vi">Vietnamese</option>
-  </select>
-  <button id="save">Save</button>
-  <script src="popup.js"></script>
-</body>
-</html>
-
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>AVIM Settings</title>
+      <link rel="stylesheet" href="popup.css">
+    </head>
+    <body>
+      <h1>AVIM Settings</h1>
+      <label for="method-select">Method:</label>
+      <select id="method-select">
+        <option value="0">AUTO</option>
+        <option value="1">TELEX</option>
+        <option value="2">VNI</option>
+        <option value="3">VIQR</option>
+        <option value="4">VIQR*</option>
+      </select>
+      <label for="onOff-select">On/Off:</label>
+      <select id="onOff-select">
+        <option value="1">On</option>
+        <option value="0">Off</option>
+      </select>
+      <label for="ckSpell-select">Spell Check:</label>
+      <select id="ckSpell-select">
+        <option value="1">On</option>
+        <option value="0">Off</option>
+      </select>
+      <label for="oldAccent-select">Old Accent:</label>
+      <select id="oldAccent-select">
+        <option value="0">New</option>
+        <option value="1">Old</option>
+      </select>
+      <button id="save">Save</button>
+      <script src="popup.js"></script>
+    </body>
+    </html>
+    
