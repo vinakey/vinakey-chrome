@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 200px;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 16px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+select {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 5px;
+}
+
